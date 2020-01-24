@@ -2759,6 +2759,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		background: green; 
 	}
 
 		input[type="submit"]:hover,
@@ -2884,6 +2885,7 @@
 
 	#page-wrapper {
 		padding-top: 3em;
+		background: #b0e0e0;
 	}
 
 	body.landing #page-wrapper {
@@ -2952,12 +2954,17 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+			color: green;
+			font-weight: bold;
 		}
 
 			#header h1 a {
 				color: #fff;
 				font-weight: 400;
 				border: 0;
+				color: gold;
+				
+
 			}
 
 		#header nav {
@@ -3238,6 +3245,10 @@
 			#main > header h2 {
 				font-size: 2.75em;
 				margin: 0;
+				color: red;
+				font-weight: bold;
+				text-transform: uppercase;
+
 			}
 
 			#main > header p {
@@ -3247,6 +3258,7 @@
 				font-style: normal;
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
+				font-weight: bold;
 			}
 
 	body.landing #main {
